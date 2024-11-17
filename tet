@@ -33,6 +33,7 @@
     }
     .time span {
       width: 70px;
+      display: inline-block;
     }
   </style>
 </head>
@@ -42,19 +43,19 @@
     <div class="time">
       <span>
         <span id="d">00</span>
-        Days
+        <br>Days
       </span>
       <span>
         <span id="h">00</span>
-        Hours
+        <br>Hours
       </span>
       <span>
         <span id="m">00</span>
-        Minutes
+        <br>Minutes
       </span>
       <span>
         <span id="s">00</span>
-        Seconds
+        <br>Seconds
       </span>
     </div>
   </div>
